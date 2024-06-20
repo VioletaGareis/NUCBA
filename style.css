@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
-
 * {
   font-family: "Oswald";
   margin: 0;
@@ -7,7 +6,13 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  /* border: 1px solid red; */
+}
+html {
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 header {
   background-color: #272d37;
@@ -28,15 +33,66 @@ header {
   justify-content: center;
   gap: 20px;
 }
-.logo{
-    height: 120px;
-    width: 120px;
+.logo {
+  height: 120px;
+  width: 120px;
 }
-.navbar-list a{
-    color: lightblue;
-    font-size: 14px;
+.navbar-list a {
+  color: lightblue;
+  font-size: 14px;
 }
-.logo img{
-    height: 100%;
-    width: 100%;
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+/* main */
+main {
+  display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #404f68;
+  color: aliceblue; }
+/* Hero */
+#hero {
+  display: flex;
+  gap: 30px;
+  padding: 10px 10px;
+}
+.hero-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 450px;
+}
+.hero-info h1 {
+  font-size: 30px;
+}
+.hero-info p {
+  font-size: 14px;
+  width: 450px;
+}
+.hero-info boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.hero-info a {
+  background-color: #6c63ff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+  width: 200px;
+  color: azure;
+}
+.fotoportada{
+  height: 450px;
+  width: 450px;
+}
+.fotoportada img { 
+  height: 100%;
+  width: 100%;
 }
