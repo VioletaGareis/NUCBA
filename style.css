@@ -40,7 +40,7 @@ header {
 }
 .navbar-list a {
   color: lightblue;
-  font-size: 14px;
+  font-size: 20px;
 }
 .logo img {
   height: 100%;
@@ -66,14 +66,14 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   width: 450px;
 }
 .hero-info h1 {
   font-size: 30px;
 }
 .hero-info p {
-  font-size: 16px;
+  font-size: 18px;
   width: 450px;
 }
 .hero-info boton {
@@ -87,7 +87,7 @@ main {
   border-radius: 10px;
   padding: 10px 20px;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   width: 200px;
   color: azure;
 }
@@ -106,7 +106,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color:  #272d37;
+  background-color: #272d37;
   width: 800px;
   font-size: 18px;
   gap: 10px;
@@ -114,9 +114,103 @@ main {
   padding: 10px;
 }
 /* Cards */
-.cards {
+#cards h3{
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.info-card-conteiner {
+  display: flex;
+  gap: 20px;
+}
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  max-width: 500px;
+  max-height: 900px;
+}
+.info-card img {
+  height: 100%;
+  width: 100%;
+}
+.info-card p{
+  background-color: #6c63ff;
+  border-radius: 40px;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+/* Contacto */
+#Contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+#Contacto h4{
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  padding: 40px;
+  color: black;
+}
+#Contacto p{
+  font-size: 18px;
+  width: 80%;
+  text-align: center;
+  color: black;
+}
+.final-form{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.final-input-1 {
+  align-self: start;
+  font-size: 15px;
+  padding: 15px 40px;
+  margin: 10px;
+  background: transparent;
+  border: 2px solid black;
+}
+.final-condiciones {
+  color: black;
+}
+
+.final-input-2 {
+  font-size: 15px;
+  color: black;
+  align-self: center;
+  background: #6c63ff;
+  padding: 10px 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 0;
+  background: #272d37;
+}
+.footer-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.footer-list a{
+color:azure;
 }
