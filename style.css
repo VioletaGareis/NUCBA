@@ -9,7 +9,7 @@
 }
 html {
   background: linear-gradient(
-    to right,
+    to top,
     #2c3e50,
     #2980b9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -21,6 +21,7 @@ header {
   align-items: center;
   padding: 0px 30px;
 }
+/* Navbar */
 .navbar {
   display: flex;
   align-items: center;
@@ -48,11 +49,13 @@ header {
 /* main */
 main {
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #404f68;
-  color: aliceblue; }
+  color: aliceblue;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /* Hero */
 #hero {
   display: flex;
@@ -70,7 +73,7 @@ flex-direction: column;
   font-size: 30px;
 }
 .hero-info p {
-  font-size: 14px;
+  font-size: 16px;
   width: 450px;
 }
 .hero-info boton {
@@ -88,11 +91,32 @@ flex-direction: column;
   width: 200px;
   color: azure;
 }
-.fotoportada{
+.fotoportada {
   height: 450px;
   width: 450px;
 }
-.fotoportada img { 
+.fotoportada img {
   height: 100%;
   width: 100%;
+}
+/* About */
+.About {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:  #272d37;
+  width: 800px;
+  font-size: 18px;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 10px;
+}
+/* Cards */
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
