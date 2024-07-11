@@ -16,6 +16,9 @@ html {
 }
 header {
   background-color: #272d37;
+  width: 100%;
+}
+.barra{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,6 +64,7 @@ main {
   display: flex;
   gap: 30px;
   padding: 10px 10px;
+  flex-wrap: wrap-reverse;
 }
 .hero-info {
   display: flex;
@@ -117,32 +121,42 @@ main {
 #cards h3{
   font-size: 30px;
   text-align: center;
-  padding: 20px;
+  padding: 60px;
 }
 .info-card-conteiner {
   display: flex;
-  gap: 20px;
+  gap: 100px;
+  flex-wrap: wrap;
+  padding-bottom: 200px;
 }
 .info-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items:center;
+  justify-content: start;
   text-align: center;
+  max-width: 300px;
+  max-height: 232px;
   gap: 10px;
-  max-width: 500px;
-  max-height: 900px;
 }
 .info-card img {
   height: 100%;
   width: 100%;
 }
+.info-card h4,h5,h6{
+  font-size: 20px; 
+  background-color: #6c63ff;
+  border:white 2px solid;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+}
 .info-card p{
   background-color: #6c63ff;
-  border-radius: 40px;
-  height: 100%;
-  width: 100%;
-  font-size: 20px;
+  height: 232px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 17px;
   display: flex;
   text-align: center;
   align-items: center;
@@ -154,13 +168,15 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: aliceblue;
 }
-#Contacto h4{
+#Contacto h7{
   font-size: 35px;
   font-weight: 800;
   text-align: center;
-  padding: 40px;
+  padding: 0px 40px;
   color: black;
 }
 #Contacto p{
@@ -213,4 +229,7 @@ footer {
 }
 .footer-list a{
 color:azure;
+}
+@media (max-width:992px){
+
 }
